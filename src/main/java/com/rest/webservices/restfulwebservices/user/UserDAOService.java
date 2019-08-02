@@ -10,7 +10,7 @@ import java.util.List;
 @Component
 public class UserDAOService
 {
-    private static List<User> users = new ArrayList<>();
+    private static List<User> users = new ArrayList<User>();
     private int userCount=3;
     static {
         users.add(new User(1,"Ani",new Date()));
